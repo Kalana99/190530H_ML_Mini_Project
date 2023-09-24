@@ -29,7 +29,7 @@ The above notebooks provide classification models for **Layer 09** and **Layer 1
 
 *The above operation sequence is carried out for each label separately by changing the label in the **“Assigning Labels”** cell.*
 
-`
+```Python
 trained_label = 'label_X'
 
 x_train_df = x_train[LX].copy()
@@ -39,5 +39,6 @@ x_valid_df = x_valid[LX].copy()
 y_valid_df = y_valid[LX].copy()
 
 x_test_df = x_test[LX].copy()
-`
+```
+
 Replace **X** with **1, 2, 3** or **4** based on the label that needs to be predicted
