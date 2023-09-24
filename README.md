@@ -30,6 +30,8 @@ The above notebooks provide classification models for **Layer 09** and **Layer 1
 *The above operation sequence is carried out for each label separately by changing the label in the **“Assigning Labels”** cell.*
 
 ```Python
+# @title **Assigning Label**
+
 trained_label = 'label_X'
 
 x_train_df = x_train[LX].copy()
