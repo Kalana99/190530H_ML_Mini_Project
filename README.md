@@ -32,15 +32,15 @@ The above notebooks provide classification models for **Layer 09** and **Layer 1
 ```Python
 # @title **Assigning Label**
 
-trained_label = 'label_X'
+train_label = 'label_X'
 
-x_train_df = x_train[LX].copy()
-y_train_df = y_train[LX].copy()
+x_train_df = x_train[train_label].copy()
+y_train_df = y_train[train_label].copy()
 
-x_valid_df = x_valid[LX].copy()
-y_valid_df = y_valid[LX].copy()
+x_valid_df = x_valid[train_label].copy()
+y_valid_df = y_valid[train_label].copy()
 
-x_test_df = x_test[LX].copy()
+x_test_df = x_test[train_label].copy()
 ```
 
 Replace **X** with **1, 2, 3** or **4** based on the label that needs to be predicted
